@@ -1,0 +1,28 @@
+[[package]]
+name = "iso8601"
+version = "1.1.0"
+requires_python = ">=3.6.2,<4.0"
+summary = "Simple module to parse ISO 8601 dates"
+
+[[package]]
+name = "m3u8"
+version = "3.3.0"
+requires_python = ">=3.6"
+summary = "Python m3u8 parser"
+dependencies = [
+    "iso8601",
+]
+
+[metadata]
+lock_version = "4.0"
+content_hash = "sha256:5501f67c89a0808ce02f00f0d0de9cbeeca456d43491828f05ba2ca5bc8c2ab5"
+
+[metadata.files]
+"iso8601 1.1.0" = [
+    {url = "https://files.pythonhosted.org/packages/31/8c/1c342fdd2f4af0857684d16af766201393ef53318c15fa785fcb6c3b7c32/iso8601-1.1.0.tar.gz", hash = "sha256:32811e7b81deee2063ea6d2e94f8819a86d1f3811e49d23623a41fa832bef03f"},
+    {url = "https://files.pythonhosted.org/packages/65/6c/9d72435c72adfa6e4ed1824b6df7fffbeaaf15c653881e9b041a318ba572/iso8601-1.1.0-py3-none-any.whl", hash = "sha256:8400e90141bf792bce2634df533dc57e3bee19ea120a87bebcd3da89a58ad73f"},
+]
+"m3u8 3.3.0" = [
+    {url = "https://files.pythonhosted.org/packages/aa/92/d48324f64294666e24f8c194e38405df51057721592b8908a678b0bd8900/m3u8-3.3.0-py3-none-any.whl", hash = "sha256:82e64db2d1f4fdf3786ed138b7d7cd173dad7c0da2f7b610d42044bfb24bad78"},
+    {url = "https://files.pythonhosted.org/packages/e7/ee/4c675ee27a03fcfda19e5bdeb52de1ed8f3383e27c04c6b1246345b550a4/m3u8-3.3.0.tar.gz", hash = "sha256:2b1f4ffceb6c488b9d87bcbbd22f7fb92afd8965ba161d882f29e9b23dcb1939"},
+]
